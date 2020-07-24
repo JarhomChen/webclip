@@ -1,0 +1,8 @@
+#-in ~/app.mobileconfig 未签名描述文件路径
+#-out ~/app_signed.mobileconfig 签名后的描述文件输出路径
+#-signer ~/Desktop/xx.public.pem 证书公钥路径，包含证书链
+#-inkey ~/Desktop/xx.private.pem 证书私钥路径
+
+
+
+openssl smime -sign -in ./app.mobileconfig -out app_signed.mobileconfig -signer zhuying.com.pem -inkey zhuying.com.key -certfile zhuying.com.pem -outform der -nodetach
