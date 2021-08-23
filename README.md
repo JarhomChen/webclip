@@ -1,6 +1,6 @@
 # webclip
 
-相关介绍请查看我的blog  https://blog.jarhom.com/blog/html/15955624729823.html
+相关介绍请查看我的blog  https://blog.jarhom.com/blog/html/16051737162084.html
 
 # iOS Web Clip生成和签名以及发布
 
